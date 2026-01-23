@@ -4,7 +4,7 @@ const Button = ({ href, children, variant = "", className = "", ...props }) => {
   const variants = {
     primary: "btn-primary",
     top_nav_button: "top_nav_button",
-    primary_sm: "btn_primary_sm",
+    send_btn: "send_btn",
     no_outline: "cta_artist",
   };
 

@@ -47,6 +47,20 @@
     .papers_token_section .cline:after { 
         bottom: 16px; 
     }
+    
+    .footer_section:before { 
+        width: 100%; 
+    }
+    .footer_elements { 
+        margin-left: 30px;
+        margin-right: 30px; 
+    }
+    .social {
+        margin-bottom: 30px;
+    }
+    .copyright p { 
+        margin-bottom: 30px;
+    }
 
 
 }
@@ -83,6 +97,20 @@
     
     .papers_token_section .cline:after { 
         bottom: 16px; 
+    }
+    
+    .footer_section:before { 
+        width: 100%; 
+    }
+    .footer_elements { 
+        margin-left: 30px;
+        margin-right: 30px; 
+    }
+    .social {
+        margin-bottom: 30px;
+    }
+    .copyright p { 
+        margin-bottom: 30px;
     }
 
 }
@@ -123,6 +151,19 @@
     }
     .papers_token_section .cline:after { 
         bottom: 16px; 
+    }
+    .footer_section:before { 
+        width: 100%; 
+    }
+    .footer_elements { 
+        margin-left: 30px;
+        margin-right: 30px; 
+    }
+    .social {
+        margin-bottom: 30px;
+    }
+    .copyright p { 
+        margin-bottom: 30px;
     }
   
 }
