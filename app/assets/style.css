@@ -218,7 +218,8 @@ img, svg {
   margin-left: 50px;
 }
 .top_header .navbar {
-  background: #fff !important;
+    background: #fff!important;
+    border-bottom: 1px solid #cfd4dc !important;
 }
 
 /*hero section*/

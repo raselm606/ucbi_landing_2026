@@ -12,26 +12,24 @@ const Partners = () => {
     <div className="partner_section">
         <div className="container cline ">
           
-                 <Marquee speed={60} gradient={true}>
+                 <Marquee speed={60} gradient={false}>
                     
-                        <div className="partner_img">
-                            <Image src={one} alt="Partner Logo"/>
-                            <Image src={two} alt="Partner Logo"/>
-                            <Image src={three} alt="Partner Logo"/>
-                            <Image src={four} alt="Partner Logo"/>
-                            <Image src={five} alt="Partner Logo"/>
-                            <Image src={six} alt="Partner Logo"/>
-                            
-                            <Image src={one} alt="Partner Logo"/>
-                            <Image src={two} alt="Partner Logo"/>
-                            <Image src={three} alt="Partner Logo"/>
-                            <Image src={four} alt="Partner Logo"/>
-                            <Image src={five} alt="Partner Logo"/>
-                            <Image src={six} alt="Partner Logo"/>
-                        </div>
+                    <div className="partner_img">
+                        <Image src={one} alt="Partner Logo"/>
+                        <Image src={two} alt="Partner Logo"/>
+                        <Image src={three} alt="Partner Logo"/>
+                        <Image src={four} alt="Partner Logo"/>
+                        <Image src={five} alt="Partner Logo"/>
+                        <Image src={six} alt="Partner Logo"/>
+                        
+                        <Image src={one} alt="Partner Logo"/>
+                        <Image src={two} alt="Partner Logo"/>
+                        <Image src={three} alt="Partner Logo"/>
+                        <Image src={four} alt="Partner Logo"/>
+                        <Image src={five} alt="Partner Logo"/>
+                        <Image src={six} alt="Partner Logo"/>
+                    </div>
                     
-                    
-                       
                     </Marquee>
                 
                 
