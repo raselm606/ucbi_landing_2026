@@ -1,6 +1,5 @@
 "use client";
 import Image from "next/image";
-import { useEffect, useState } from "react";
 import Marquee from "react-fast-marquee";
 import coin1 from '../../public/images/coin1.png';
 import coin2 from '../../public/images/coin2.png';
@@ -9,36 +8,36 @@ import coin4 from '../../public/images/coin4.png';
 import contractImg from '../../public/images/contract.png';
 
 const ContractInvestment = () => {
-const [priceBTC, setBTCPrice] = useState(null);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
+// const [priceBTC, setBTCPrice] = useState(null);
+//   const [loading, setLoading] = useState(true);
+//   const [error, setError] = useState(null);
 
-  useEffect(() => {
-    fetch(
-      "https://api.coingecko.com/api/v3/simple/price?vs_currencies=usd&ids=bitcoin",
-      {
-        headers: {
-          "x-cg-demo-api-key": "x-cg-demo-api-key",
-        },
-      }
-    )
-      .then(res => {
-        if (!res.ok) throw new Error("API Error");
-        return res.json();
-      })
-      .then(data => {
-        setBTCPrice(data?.bitcoin?.usd ?? "N/A");
-        setLoading(false);
-      })
-      .catch(err => {
-        console.error(err);
-        setError("Failed to load crypto prices");
-        setLoading(false);
-      });
-  }, []);
+//   useEffect(() => {
+//     fetch(
+//       "https://api.coingecko.com/api/v3/simple/price?vs_currencies=usd&ids=bitcoin",
+//       {
+//         headers: {
+//           "x-cg-demo-api-key": "x-cg-demo-api-key",
+//         },
+//       }
+//     )
+//       .then(res => {
+//         if (!res.ok) throw new Error("API Error");
+//         return res.json();
+//       })
+//       .then(data => {
+//         setBTCPrice(data?.bitcoin?.usd ?? "N/A");
+//         setLoading(false);
+//       })
+//       .catch(err => {
+//         console.error(err);
+//         setError("Failed to load crypto prices");
+//         setLoading(false);
+//       });
+//   }, []);
 
-  if (loading) return <p>Loading...</p>;
-  if (error) return <p>{error}</p>;
+//   if (loading) return <p>Loading...</p>;
+//   if (error) return <p>{error}</p>;
 
   return (
     <>
@@ -80,7 +79,7 @@ const [priceBTC, setBTCPrice] = useState(null);
                                         <Image src={coin1} alt="" width={50} height={50} />
                                     <span>Bitcoin</span>
                                     </div>
-                                    <span className="price_t">${priceBTC}  </span>
+                                    <span className="price_t">$45678.908  </span>
                                 </div>
 
                                 <div className="token_item">
