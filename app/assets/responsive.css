@@ -61,6 +61,15 @@
     .copyright p { 
         margin-bottom: 30px;
     }
+    .bg_bb { 
+        padding: 30px;
+    }
+    .goal_content p {
+        width: 100%;
+    }
+    .section_title_dark { 
+        font-size: 26px; 
+    }
 
 
 }
@@ -111,6 +120,15 @@
     }
     .copyright p { 
         margin-bottom: 30px;
+    }
+    .bg_bb { 
+        padding: 30px;
+    }
+    .goal_content p {
+        width: 100%;
+    }
+    .section_title_dark { 
+        font-size: 26px; 
     }
 
 }
@@ -164,6 +182,15 @@
     }
     .copyright p { 
         margin-bottom: 30px;
+    }
+    .bg_bb { 
+        padding: 30px;
+    }
+    .goal_content p {
+        width: 100%;
+    }
+    .section_title_dark { 
+        font-size: 26px; 
     }
   
 }
