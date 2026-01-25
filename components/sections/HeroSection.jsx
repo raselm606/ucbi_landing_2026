@@ -5,7 +5,7 @@ const HeroSection = () => {
   return (
     <>
     <div className="hero_section ">
-      <div className="container cline section_padding">
+      <div className="container cline section_padding_180">
         <div className="row align-items-center">
           <div className="col-lg-5 mb-3">
             <div className="hero_content">
