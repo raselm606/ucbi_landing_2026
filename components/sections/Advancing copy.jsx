@@ -1,5 +1,19 @@
- import { advanceData, advanceSectionData } from "@/lib/mock-data/advancing"
-const Advancing = async  () => { 
+import { siteConfig } from "@/lib/config/site";
+
+async function getAdvancing() {
+  const res = await fetch(`${siteConfig.baseUrl}/api/advance-api`, {
+    cache: "no-store",
+  });
+
+  if (!res.ok) {
+    throw new Error("Failed to fetch advancing data");
+  }
+
+  return res.json();
+}
+
+const Advancing = async  () => {
+    const { section, posts } = await getAdvancing();
 
   return (
     <>
@@ -9,14 +23,14 @@ const Advancing = async  () => {
                 <div className="col-lg-3">
                     <div className="advancing_content">
                         <h2 className="section_title_dark" data-aos="fade-up" data-aos-delay="700">
-                           {advanceSectionData.title[0]} <br />
-                           {advanceSectionData.title[1]}
+                           {section.title[0]} <br />
+                           {section.title[1]}
                         </h2>
                     </div>   
                 </div>
 
                 <div className="offset-lg-3 col-lg-6">
-                    {advanceData.map((item, index) => (
+                    {posts.map((item, index) => (
                     <div className="advancing_para" key={item.id}>
                         <h5 data-aos="fade-up" data-aos-delay="700">{item.title}</h5>
                         <p data-aos="fade-up" data-aos-delay="750"> {item.desc}</p>
