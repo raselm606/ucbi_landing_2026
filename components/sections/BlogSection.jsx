@@ -16,7 +16,7 @@ const BlogSection = () => {
                         </h2>
                 </div>
             </div>
-            <div className="row">
+            <div className="row drs">
 
                 { blogData.map(({ id, thumb, date, title, desc }) => (
                 <div className="col-lg-3 mb-3 mt-3" key={id}>
