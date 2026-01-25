@@ -70,12 +70,45 @@
     .section_title_dark { 
         font-size: 26px; 
     }
+    .big_text_number span { 
+        line-height: 50px; 
+        font-size: 40px;
+    }
+    .section_title_white { 
+        font-size: 24px;
+        line-height: 32px; 
+    }
+    .line_img {
+        display: none;
+    }
+    .ourjourney_section { 
+        background-size: cover;
+    }
+    .timeline_item:before {
+        display: none ;
+    }
+    .timeline_item:after {
+        display: none ;
+    }
+    .timeline_one, .timeline_two , .timeline_three , .timeline_four   {
+        margin-top: 20px;
+    }
+    .white_paper_area:before {
+        display: none;
+    }
+    .white_paper_area:after {
+        display: none;
+    }
+    .goal_sectio .cline { 
+        padding: 100px 8px !important;
+    }
+
 
 
 }
 
 /* Small / Mobile */
-@media only screen and (maxwidth: 576px) {
+@media only screen and (max-width: 576px) {
      .container {
         padding-left: 15px !important;
         padding-right: 15px !important;
@@ -129,6 +162,43 @@
     }
     .section_title_dark { 
         font-size: 26px; 
+    }
+    .big_text_number span { 
+        line-height: 50px; 
+        font-size: 40px;
+    }
+    .section_title_white { 
+        font-size: 24px;
+        line-height: 32px; 
+    }
+    .line_img {
+        display: none;
+    }
+    .ourjourney_section { 
+        background-size: cover;
+    }.line_img {
+        display: none;
+    }
+    .ourjourney_section { 
+        background-size: cover;
+    }
+    .timeline_item:before {
+        display: none ;
+    }
+    .timeline_item:after {
+        display: none ;
+    }
+    .timeline_one, .timeline_two , .timeline_three , .timeline_four   {
+        margin-top: 20px;
+    }
+    .white_paper_area:before {
+        display: none;
+    }
+    .white_paper_area:after {
+        display: none;
+    }
+    .goal_sectio .cline { 
+        padding: 100px 8px !important;
     }
 
 }
@@ -191,6 +261,44 @@
     }
     .section_title_dark { 
         font-size: 26px; 
+    }
+    .big_text_number span { 
+        font-size: 40px;
+        line-height: 50px ; 
+    }
+
+    .section_title_white { 
+        font-size: 24px;
+        line-height: 32px; 
+    }
+    .line_img {
+        display: none;
+    }
+    .ourjourney_section { 
+        background-size: cover;
+    }.line_img {
+        display: none;
+    }
+    .ourjourney_section { 
+        background-size: cover;
+    }
+    .timeline_item:before {
+        display: none ;
+    }
+    .timeline_item:after {
+        display: none ;
+    }
+    .timeline_one, .timeline_two , .timeline_three , .timeline_four   {
+        margin-top: 20px;
+    }
+    .white_paper_area:before {
+        display: none;
+    }
+    .white_paper_area:after {
+        display: none;
+    }
+    .goal_sectio .cline { 
+        padding: 100px 8px !important;
     }
   
 }

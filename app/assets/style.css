@@ -596,6 +596,7 @@ img {
 }
 .cont_bg {
     background: url(../../public/images/invest_bg.jpg);
+    background-size: cover;
 }
 .token_item {
     display: flex;
@@ -884,3 +885,16 @@ label.form-check-label {
     margin-top: 100px !important;
     background: rgb(255 255 255 / 14%) !important;
 }
+/*swiper blog css*/
+.swiper_blog .swiper-wrapper {
+    margin-bottom: 70px;
+}
+.swiper_blog{
+    position: relative;
+}
+.swiper_blog .swiper_nav_btn {
+    position: absolute;
+    top: -60px;
+    right: 0;
+    z-index: 10;
+} 

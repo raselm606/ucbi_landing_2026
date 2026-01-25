@@ -23,21 +23,21 @@ const OurJourney = () => {
                   </div>
               </div>
 
-              <div className="offset-1 col-lg-2">
+              <div className="offset-lg-1 col-lg-2">
                   <div className="timeline_item timeline_two" data-aos="fade-up" data-aos-delay="800">
                     <h4>Year 3</h4>
                     <p>Building the Ecosystem</p>
                   </div>
               </div>
 
-              <div className="offset-1 col-lg-2">
+              <div className="offset-lg-1 col-lg-2">
                   <div className="timeline_item timeline_three" data-aos="fade-up" data-aos-delay="900">
                     <h4>Year 5</h4>
                     <p>Expansion & Market Validation</p>
                   </div>
               </div>
 
-              <div className="offset-1 col-lg-2"> 
+              <div className="offset-lg-1 col-lg-2"> 
                   <div className="timeline_item timeline_four" data-aos="fade-up" data-aos-delay="950">
                     <h4>Today</h4>
                     <p>Scaling for Institutional Adoption</p>
