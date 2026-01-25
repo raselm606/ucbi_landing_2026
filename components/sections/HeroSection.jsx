@@ -9,15 +9,15 @@ const HeroSection = () => {
         <div className="row align-items-center">
           <div className="col-lg-5 mb-3">
             <div className="hero_content">
-              <h1 className="hero_title">UCBI Blockchain <br />Data Banking</h1>
-              <p className="hero_paragraph">Union of Cryptocurrencies and Blockchain International</p>
-              <div className="hero_button">
+              <h1 className="hero_title" data-aos="fade-up" data-aos-delay="700">UCBI Blockchain <br />Data Banking</h1>
+              <p className="hero_paragraph" data-aos="fade-up" data-aos-delay="800">Union of Cryptocurrencies and Blockchain International</p>
+              <div className="hero_button" data-aos="fade-up" data-aos-delay="700">
                 <Button href="#" variant="primary">Trading</Button>
               </div>
             </div>
           </div>
-          <div className="offset-lg-2 col-lg-5">
-            <div className="hero_image">
+          <div className="offset-lg-2 col-lg-5"  >
+            <div className="hero_image" >
               <Image src={HeroImg}  alt="hero_image" priority/>
             </div>
           </div>

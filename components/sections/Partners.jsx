@@ -14,7 +14,7 @@ const Partners = () => {
           
                  <Marquee speed={60} gradient={false}>
                     
-                    <div className="partner_img">
+                    <div className="partner_img" >
                         <Image src={one} alt="Partner Logo"/>
                         <Image src={two} alt="Partner Logo"/>
                         <Image src={three} alt="Partner Logo"/>

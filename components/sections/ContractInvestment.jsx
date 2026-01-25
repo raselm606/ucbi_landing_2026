@@ -47,31 +47,31 @@ const ContractInvestment = () => {
             <div className="row g-0 cont_bg align-items-center">
                 <div className="col-lg-6 mb-3 ">
                     <div className="goal_content contract_in">
-                        <h2 className="section_title_white">
+                        <h2 className="section_title_white" data-aos="fade-up" data-aos-delay="700">
                             Contract staking investment in UCBI
                         </h2>
-                        <p className="section_paragraph_white">
+                        <p className="section_paragraph_white" data-aos="fade-up" data-aos-delay="750">
                             Experience a 10% Contract Investment opportunity with UCBI Banking, designed to strategically allocate funds into the ecosystem’s development and expansion initiatives. This investment model supports the growth.
                         </p>
 
-                        <div className="divider_lin ggl"></div>
+                        <div className="divider_lin ggl" data-aos="fade-up" data-aos-delay="750"></div>
 
                         
                     </div>
                     
                 </div>
                 <div className=" col-lg-5 mb-3">
-                    <div className="goal_im">
+                    <div className="goal_im" data-aos="fade-up" data-aos-delay="800">
                         <Image src={contractImg} alt="goal image" width={600} height={400} />
                     </div>
                 </div>
 
                 <div className="col-lg-12">
-                    <div className="token_info">
+                    <div className="token_info" data-aos="fade-up" data-aos-delay="700">
                         <p>Token investment: 
        
                         </p>
-                        <div className="token_slide">
+                        <div className="token_slide" data-aos="fade-up" data-aos-delay="800">
 
                             <Marquee speed={60} gradient={false}>
                                 <div className="token_item">
