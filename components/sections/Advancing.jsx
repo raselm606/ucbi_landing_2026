@@ -13,7 +13,7 @@ const Advancing = () => {
                     </div>   
                 </div>
 
-                <div className="offset-lg-4 col-lg-5">
+                <div className="offset-lg-3 col-lg-6">
                     <div className="advancing_para">
                         <h5>Treasury Investment</h5>
                         <p>Our liquidity framework is designed with strategic asset management at core, ensuring optimal capital efficiency, risk balanced allocation and seamless fund flow across the ecosystem.</p>
