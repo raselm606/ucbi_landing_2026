@@ -25,9 +25,15 @@ const BlogSection = () => {
                         </h2>
                 </div>
             </div>
+             
             <div className="row  drs justify-content-center">
+                
                  
                 <div className="col-lg-9">
+                    <div className="swiper_nav_btn mb-4 d-flex justify-content-end">
+                        <button className="prev-btn">←</button>
+                        <button className="next-btn">→</button>
+                    </div>
 
                 
                 <Swiper
@@ -66,10 +72,7 @@ const BlogSection = () => {
                     className="swiper_blog" 
                     >
 
-                        <div className="swiper_nav_btn">
-                        <button className="prev-btn">←</button>
-                        <button className="next-btn">→</button>
-                    </div>
+                        
                     
                 
 

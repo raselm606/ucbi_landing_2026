@@ -892,9 +892,30 @@ label.form-check-label {
 .swiper_blog{
     position: relative;
 }
-.swiper_blog .swiper_nav_btn {
-    position: absolute;
-    top: -60px;
-    right: 0;
-    z-index: 10;
-} 
+ 
+ .swiper_nav_btn .prev-btn {
+    background: #0cc0df;
+    height: 30px;
+    width: 30px;
+    border: none !important;
+    color: #fff;
+    margin-right: 5px;
+    transition: var(--transition); 
+}
+ .swiper_nav_btn .prev-btn:hover {
+    background: var(--dark_color);
+    transition: var(--transition);  
+}
+.swiper_nav_btn .next-btn {
+    background: #0cc0df;
+    height: 30px;
+    width: 30px;
+    border: none !important;
+    color: #fff;
+    margin-left: 5px;
+    transition: var(--transition); 
+}
+.swiper_nav_btn .next-btn:hover {
+    background: var(--dark_color);
+    transition: var(--transition); 
+}
