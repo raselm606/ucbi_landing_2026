@@ -1,36 +1,35 @@
+import { siteConfig } from "@/lib/config/site";
 import Image from "next/image";
 import Marquee from "react-fast-marquee";
-import one from "../../public/images/partners/1.png";
-import two from "../../public/images/partners/2.png";
-import three from "../../public/images/partners/3.png";
-import four from "../../public/images/partners/4.png";
-import five from "../../public/images/partners/5.png";
-import six from "../../public/images/partners/6.png";
-const Partners = () => {
+
+async function getPartners() {
+  const res = await fetch(`${siteConfig.baseUrl}/api/partner-api`, {
+    cache: "no-store",
+  });
+
+  if (!res.ok) {
+    throw new Error("Failed to fetch partners data");
+  }
+
+  return res.json();
+}
+
+const Partners = async () => {
+  const { posts } = await getPartners();
+  
   return (
     <>
     <div className="partner_section">
         <div className="container cline ">
           
                  <Marquee speed={60} gradient={false}>
-                    
-                    <div className="partner_img" >
-                        <Image src={one} alt="Partner Logo"/>
-                        <Image src={two} alt="Partner Logo"/>
-                        <Image src={three} alt="Partner Logo"/>
-                        <Image src={four} alt="Partner Logo"/>
-                        <Image src={five} alt="Partner Logo"/>
-                        <Image src={six} alt="Partner Logo"/>
-                        
-                        <Image src={one} alt="Partner Logo"/>
-                        <Image src={two} alt="Partner Logo"/>
-                        <Image src={three} alt="Partner Logo"/>
-                        <Image src={four} alt="Partner Logo"/>
-                        <Image src={five} alt="Partner Logo"/>
-                        <Image src={six} alt="Partner Logo"/>
+                    {posts.map((item, index) => (
+                    <div className="partner_img" key={item.id}>
+                        <Image  src={item.logo} alt="Partner Logo" width={100} height={50}/>
                     </div>
+                    ))}
                     
-                    </Marquee>
+                  </Marquee>
                 
                 
             
