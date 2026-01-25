@@ -12,7 +12,7 @@ const BlogSection = () => {
         <div className="container cline">
             <div className="row mb-3">
                 <div className="col-lg-12 text-center">
-                    <h2 className="section_title_dark">Stay updated with the latest  from UCBI</h2>
+                    <h2 data-aos="fade-up" data-aos-delay="600" className="section_title_dark">Stay updated with the latest  from UCBI</h2>
                 </div>
             </div>
             <div className="row">
@@ -20,7 +20,7 @@ const BlogSection = () => {
                     
                     <div className="blog_item">
                         <Link href="#">
-                        <div className="blog_img">
+                        <div className="blog_img" data-aos="fade-up" data-aos-delay="700">
                             <Image src={blog1} alt="blog1" width={370} height={250} />
                             <div className="blog_date">
                                 <span>January 18, 2026</span>
@@ -28,9 +28,9 @@ const BlogSection = () => {
                         </div>
                          </Link>
                         <div className="blog_content">
-                            <h4>Bringing secure, scalable solutions to global.</h4>
-                            <p>UCBI delivers secure and scalable core banking solutions designed to support the evolving needs of global digital finance...</p>
-                            <Link href="#">Read more <Image src={arrow_blog} alt="arrow" width={15} height={15} /> </Link>
+                            <h4 data-aos="fade-up" data-aos-delay="750">Bringing secure, scalable solutions to global.</h4>
+                            <p data-aos="fade-up" data-aos-delay="800">UCBI delivers secure and scalable core banking solutions designed to support the evolving needs of global digital finance...</p>
+                            <Link data-aos="fade-up" data-aos-delay="800" href="#">Read more <Image src={arrow_blog} alt="arrow" width={15} height={15} /> </Link>
                         </div>
                     </div>
                    
@@ -39,61 +39,59 @@ const BlogSection = () => {
                     
                     <div className="blog_item">
                         <Link href="#">
-                        <div className="blog_img">
+                        <div className="blog_img" data-aos="fade-up" data-aos-delay="700">
                             <Image src={blog2} alt="blog1" width={370} height={250} />
+                            <div className="blog_date">
+                                <span>January 20, 2026</span>
+                            </div>
+                        </div>
+                         </Link>
+                        <div className="blog_content">
+                            <h4 data-aos="fade-up" data-aos-delay="750">Bringing secure, scalable solutions to global.</h4>
+                            <p data-aos="fade-up" data-aos-delay="800">UCBI delivers secure and scalable core banking solutions designed to support the evolving needs of global digital finance...</p>
+                            <Link data-aos="fade-up" data-aos-delay="800" href="#">Read more <Image src={arrow_blog} alt="arrow" width={15} height={15} /> </Link>
+                        </div>
+                    </div>
+                   
+                </div>
+                <div className="col-lg-3 mb-3">
+                    
+                    <div className="blog_item">
+                        <Link href="#">
+                        <div className="blog_img" data-aos="fade-up" data-aos-delay="700">
+                            <Image src={blog3} alt="blog1" width={370} height={250} />
                             <div className="blog_date">
                                 <span>January 22, 2026</span>
                             </div>
                         </div>
-                        </Link>
+                         </Link>
                         <div className="blog_content">
-                            <h4>Bringing secure, scalable solutions to Expanding</h4>
-                            <p>UCBI delivers secure and scalable core banking solutions designed to support the evolving needs of global digital finance...</p>
-                            <Link href="#">Read more <Image src={arrow_blog} alt="arrow" width={15} height={15} /> </Link>
+                            <h4 data-aos="fade-up" data-aos-delay="750">Bringing secure, scalable solutions to global.</h4>
+                            <p data-aos="fade-up" data-aos-delay="800">UCBI delivers secure and scalable core banking solutions designed to support the evolving needs of global digital finance...</p>
+                            <Link data-aos="fade-up" data-aos-delay="800" href="#">Read more <Image src={arrow_blog} alt="arrow" width={15} height={15} /> </Link>
                         </div>
                     </div>
-                    
-                </div>
-                <div className="col-lg-3 mb-3">
                    
-                    <div className="blog_item">
-                         <Link href="#">
-                        <div className="blog_img">
-                            <Image src={blog3} alt="blog1" width={370} height={250} />
-                            <div className="blog_date">
-                                <span>January 24, 2026</span>
-                            </div>
-                        </div>
-                        </Link>
-                        <div className="blog_content">
-                            <h4>Driving collaboration and blockchain powered</h4>
-                            <p>UCBI delivers secure and scalable core banking solutions designed to support the evolving needs of global digital finance...</p>
-                            <Link href="#" className="xxx" alt="Read more">Read more 
-                            <Image src={arrow_blog} alt="arrow" width={15} height={15} /> 
-                            </Link>
-                        </div>
-                    </div>
-                    
                 </div>
 
                 <div className="col-lg-3 mb-3">
-                   
+                    
                     <div className="blog_item">
-                         <Link href="#">
-                        <div className="blog_img">
+                        <Link href="#">
+                        <div className="blog_img" data-aos="fade-up" data-aos-delay="700">
                             <Image src={blog2} alt="blog1" width={370} height={250} />
                             <div className="blog_date">
-                                <span>January 26, 2026</span>
+                                <span>January 25, 2026</span>
                             </div>
                         </div>
-                        </Link>
+                         </Link>
                         <div className="blog_content">
-                            <h4>Bringing secure, scalable solutions to Expanding</h4>
-                            <p>UCBI delivers secure and scalable core banking solutions designed to support the evolving needs of global digital finance...</p>
-                            <Link href="#" className="xxx" alt="Read more"> Read more <Image src={arrow_blog} alt="arrow" width={15} height={15} /> </Link>
+                            <h4 data-aos="fade-up" data-aos-delay="750">Bringing secure, scalable solutions to global.</h4>
+                            <p data-aos="fade-up" data-aos-delay="800">UCBI delivers secure and scalable core banking solutions designed to support the evolving needs of global digital finance...</p>
+                            <Link data-aos="fade-up" data-aos-delay="800" href="#">Read more <Image src={arrow_blog} alt="arrow" width={15} height={15} /> </Link>
                         </div>
                     </div>
-                    
+                   
                 </div>
 
             </div>
