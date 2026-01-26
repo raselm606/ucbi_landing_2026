@@ -13,11 +13,15 @@ import 'swiper/css';
 import 'swiper/css/autoplay';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-const BlogSection = () => {
+
+
+
+
+const BlogSection =   () => {
   return (
     <>
     <div className="blog_section">
-        <div className="container cline">
+        <div className="container cline"> 
             <div className="row mb-3">
                 <div className="col-lg-12 text-center">
                     <h2 data-aos="fade-up" data-aos-delay="600" className="section_title_dark">
