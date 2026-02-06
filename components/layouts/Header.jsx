@@ -58,7 +58,7 @@ const Header = () => {
             <p style={{color:'#112e50'}}> <strong>Email:</strong> contact@ucbibanking.io</p>
         </div>
 
-        <div class="modal-footer">
+        <div className="modal-footer">
         <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button> 
       </div>
          
