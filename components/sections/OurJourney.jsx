@@ -4,11 +4,12 @@ const OurJourney = () => {
   return (
     <>
     <div className="ourjourney_section">
-        <div className="container cline">
+        <div className="container cline left_100">
           <div className="row">
             <div className="col-lg-4">
               <div className="journey_content" data-aos="fade-up" data-aos-delay="600">
-                <h2 className="section_title_white">Our journey through the years <br /> reflects our vision and progress <br /> in digital banking.</h2> 
+                <h2 className="section_title_white">Our journey over the years 
+                   <br /> reflects long-term vision  <br /> and progress</h2> 
                 </div>
             </div>
           </div>
@@ -40,7 +41,7 @@ const OurJourney = () => {
               <div className="offset-lg-1 col-lg-2"> 
                   <div className="timeline_item timeline_four" data-aos="fade-up" data-aos-delay="950">
                     <h4>Today</h4>
-                    <p>Scaling for Institutional Adoption</p>
+                    <p>Focused on private expansion</p>
                   </div> 
               </div>
 

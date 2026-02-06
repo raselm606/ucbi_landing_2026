@@ -3,15 +3,15 @@ const PapersToken = () => {
   return (
     <>
     <div className="papers_token_section">
-        <div className="container cline">
-            <div className="row g-0">
-                <div className="col-lg-5 mb-3">
+        <div className="container clinee">
+            <div className="row ">
+                <div className="col-lg-5 ">
                     <div className="white_paper_area" >
                        <h2 className="section_title_white" >
-                        UCBI Blockchain Data <br /> Banking Whitepaper
+                        Whitepaper
                        </h2>
                        <p className="section_paragraph_white" >
-                        The UCBI Banking Whitepaper provides a comprehensive overview of our blockchain-based data banking ecosystem, designed to deliver secure, transparent, and efficient financial services.
+                        The UCBI Banking Whitepaper provides a structured overview of UCBI’s blockchain-based data banking ecosystem It outlines the underlying architecture governance considerations and security principles supporting the development of a secure and institutionally aligned digital infrastructure
                         </p> 
                         <Button variant="primary" href="#" > Download</Button> 
                     </div>
@@ -19,10 +19,10 @@ const PapersToken = () => {
                 <div className=" offset-lg-2 col-lg-5">
                     <div className="tokenomics_area" >
                         <h2 className="section_title_dark" >
-                            Tokenomics Overview <br /> (Support Line)
+                            Tokenomics  
                         </h2>
                         <p className="section_paragraph_dark" >
-                            The UCBI tokenomics model is carefully structured to support longterm value creation, sustainable ecosystem growth, and broad utility within the UCBI Banking platform.
+                            The UCBI tokenomics framework is presented for informational purposes only and describes the structural principles governing the issuance allocation and lifecycle of digital units within the UCBI ecosystem It outlines governance mechanisms technical constraints and alignment considerations without constituting
                         </p>
                         <Button variant="primary" href="#" > Download</Button> 
                     </div>

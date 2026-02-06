@@ -44,7 +44,7 @@ const Driving = () => {
             <div className="container cline_white">
                 <div className="row">
                     <div className="col-lg-4 line_right  ">
-                        <div className="big_text_number text-center">
+                        <div className="big_text_number text-center extra_line_whtiepaper_left">
                             <p>on-chain marketcap  :</p>
                             <span>$167727</span>
                         </div>
@@ -56,7 +56,7 @@ const Driving = () => {
                         </div>
                     </div>
                     <div className="col-lg-4  ">
-                        <div className="big_text_number text-center">
+                        <div className="big_text_number text-center extra_line_whtiepaper_right">
                             <p>Share-holders :</p>
                             <span>359</span>
                         </div>

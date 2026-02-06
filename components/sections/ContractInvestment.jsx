@@ -5,7 +5,6 @@ import coin1 from '../../public/images/coin1.png';
 import coin2 from '../../public/images/coin2.png';
 import coin3 from '../../public/images/coin3.png';
 import coin4 from '../../public/images/coin4.png';
-import contractImg from '../../public/images/contract.png';
 
 const ContractInvestment = () => {
 // const [priceBTC, setBTCPrice] = useState(null);
@@ -47,31 +46,27 @@ const ContractInvestment = () => {
             <div className="row g-0 cont_bg align-items-center">
                 <div className="col-lg-6 mb-3 ">
                     <div className="goal_content contract_in">
-                        <h2 className="section_title_white" data-aos="fade-up" data-aos-delay="700">
-                            Contract staking investment in UCBI
+                        <h2 className="section_title_white"  >
+                           Private access to innovation
                         </h2>
-                        <p className="section_paragraph_white" data-aos="fade-up" data-aos-delay="750">
-                            Experience a 10% Contract Investment opportunity with UCBI Banking, designed to strategically allocate funds into the ecosystem’s development and expansion initiatives. This investment model supports the growth.
+                        <p className="section_paragraph_white"  >
+                           Access is reserved for a restricted circle of associates integrating the capital of the UCBI holding company acting as parent company of the project structures each operation is part of a logic of private equity type private shareholding confidential and not open to the public oriented towards the creation of technological value over the long term
                         </p>
 
-                        <div className="divider_lin ggl" data-aos="fade-up" data-aos-delay="750"></div>
+                        <div className="divider_lin ggl"  ></div>
 
                         
                     </div>
                     
                 </div>
-                <div className=" col-lg-5 mb-3">
-                    <div className="goal_im" data-aos="fade-up" data-aos-delay="800">
-                        <Image src={contractImg} alt="goal image" width={600} height={400} />
-                    </div>
-                </div>
+               
 
                 <div className="col-lg-12">
-                    <div className="token_info" data-aos="fade-up" data-aos-delay="700">
-                        <p>Token investment: 
+                    <div className="token_info" >
+                        <p>Our assets: 
        
                         </p>
-                        <div className="token_slide" data-aos="fade-up" data-aos-delay="800">
+                        <div className="token_slide"  >
 
                             <Marquee speed={60} gradient={false}>
                                 <div className="token_item">
