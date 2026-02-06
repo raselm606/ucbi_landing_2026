@@ -26,7 +26,7 @@ const Header = () => {
                     <Link className="nav-link" href="#">Treasury</Link>
                     </li>
                     <li className="nav-item">
-                    <Link className="nav-link" href="#">Submit Request</Link>
+                    <Link className="nav-link" data-bs-toggle="modal"   href="#exampleModal">Submit Request</Link>
                     </li>
                     <li className="nav-item">
                     <Link className="nav-link" href="#">Contact</Link>
@@ -40,6 +40,30 @@ const Header = () => {
                 </div>
             </div>
             </nav>
+    </div>
+
+    {/* <!-- Modal --> */}
+    <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div className="modal-dialog modal-dialog-centered">
+        <div className="modal-content">
+        <div className="modal-header">
+            <h1 className="modal-title fs-5" id="exampleModalLabel" style={{color:'#112e50'}}>Do you want to invest in UCBI Company? </h1>
+            <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div className="modal-body" style={{color:'#112e50'}}>
+            <h5 className="mb-4" style={{color:'#112e50'}}>Contact: </h5>
+            <p style={{color:'#112e50'}}> <strong>Phone:</strong> +33 376 876 876 ( FR )</p>
+            <p style={{color:'#112e50'}}> <strong>Phone:</strong> +44 1632 960 123 ( UK )</p>
+
+            <p style={{color:'#112e50'}}> <strong>Email:</strong> contact@ucbibanking.io</p>
+        </div>
+
+        <div class="modal-footer">
+        <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button> 
+      </div>
+         
+        </div>
+    </div>
     </div>
     </>
   )
