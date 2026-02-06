@@ -10,14 +10,14 @@ const GoalandEffort = () => {
             <div className="row g-0">
                 <div className="col-lg-6 mb-3 ">
                     <div className="goal_content bg_bb">
-                        <h2 className="section_title_dark" data-aos="fade-up" data-aos-delay="700">
+                        <h2 className="section_title_dark" >
                             Long-term support <br /> for secure digital innovation
                         </h2>
-                        <p data-aos="fade-up" data-aos-delay="750" className="section_paragraph_dark">Operating within a private and confidential framework UCBI is structured as a holding company supporting selected digital and blockchain-related projects through private equity-style shareholding</p>
+                        <p   className="section_paragraph_dark">Operating within a private and confidential framework UCBI is structured as a holding company supporting selected digital and blockchain-related projects through private equity-style shareholding</p>
 
                         <div className="divider_lin"></div>
 
-                        <div className="featured_o" data-aos="fade-up" data-aos-delay="800">
+                        <div className="featured_o"  >
                             <p>Market Data:</p>
                             <Link href="#" className="fe_link"><Image src={yahoof} alt="featured logos"   /></Link> 
                              
@@ -26,7 +26,7 @@ const GoalandEffort = () => {
                 </div>
                 <div className="col-lg-6 mb-3">
                     <div className="goal_im" >
-                        <Image data-aos="fade-up" data-aos-delay="850" src={goalImg} alt="goal image" width={600} height={400} />
+                        <Image  src={goalImg} alt="goal image" width={600} height={400} />
                     </div>
                 </div>
             </div>

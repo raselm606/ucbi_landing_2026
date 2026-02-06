@@ -3,7 +3,7 @@ import { blogData, blogSectionData } from "@/lib/mock-data/blog";
 import { slugify, trimByWords } from "@/lib/utils/text";
 import Image from "next/image";
 import Link from "next/link";
-import { Autoplay, Navigation, Pagination } from 'swiper/modules';
+import { Autoplay } from 'swiper/modules';
 import arrow_blog from '../../public/images/arrow_blog.svg';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -24,7 +24,7 @@ const BlogSection =   () => {
         <div className="container cline"> 
             <div className="row mb-3">
                 <div className="col-lg-12 text-center">
-                    <h2 data-aos="fade-up" data-aos-delay="600" className="section_title_dark">
+                    <h2  className="section_title_dark">
                         {blogSectionData.title}
                         </h2>
                 </div>
@@ -34,15 +34,15 @@ const BlogSection =   () => {
                 
                  
                 <div className="col-lg-9">
-                    <div className="swiper_nav_btn mb-4 d-flex justify-content-end">
+                    {/* <div className="swiper_nav_btn mb-4 d-flex justify-content-end">
                         <button className="prev-btn">←</button>
                         <button className="next-btn">→</button>
-                    </div>
+                    </div> */}
 
                 
                 <Swiper
                     // install Swiper modules
-                    modules={[Navigation, Pagination, Autoplay]}
+                    modules={[ Autoplay]}
                     spaceBetween={30}
                     slidesPerView={3}
                     navigation={{
@@ -71,7 +71,7 @@ const BlogSection =   () => {
                             spaceBetween: 20,
                         },
                     }}
-                    pagination={{ clickable: true }}
+                    pagination={{ clickable: false }}
                     scrollbar={{ draggable: true }}
                     className="swiper_blog" 
                     >
@@ -85,7 +85,7 @@ const BlogSection =   () => {
                             
                             <div className="blog_item" >
                                 <Link href={`/blog/${slugify(title)}`}>
-                                <div className="blog_img" data-aos="fade-up" data-aos-delay="700">
+                                <div className="blog_img" >
                                     <Image src={thumb} alt="blog1" width={370} height={250} />
                                     <div className="blog_date">
                                         <span>{date}</span>
@@ -93,9 +93,9 @@ const BlogSection =   () => {
                                 </div>
                                 </Link>
                                 <div className="blog_content">
-                                    <h4 data-aos="fade-up" data-aos-delay="750">{title}</h4>
-                                    <p data-aos="fade-up" data-aos-delay="800">{trimByWords(desc,20)}</p>
-                                    <Link data-aos="fade-up" data-aos-delay="800" href="#">Read more <Image src={arrow_blog} alt="arrow" width={15} height={15} /> </Link>
+                                    <h4  >{title}</h4>
+                                    <p  >{trimByWords(desc,20)}</p>
+                                    <Link href="#">Read more <Image src={arrow_blog} alt="arrow" width={15} height={15} /> </Link>
                                 </div>
                             </div>
                         

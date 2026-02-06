@@ -732,7 +732,7 @@ img {
     padding: 100px 0 !important;
 }
 .featured_o .fe_link img {
-    width: 74px !important;
+    width: auto;
     margin-right: 24px; 
 }
 .featured_o p {
@@ -742,7 +742,7 @@ img {
 }
 .bg_bb {
     background: #F0F1F5;
-    padding: 68px;
+    padding: 70px 70px 49px 70px;
 }
 .divider_lin {
     height: 1px;
@@ -770,7 +770,7 @@ img {
 .blog_section:after {
     content: "";
     position: absolute;
-    bottom: 44px;
+    bottom: 100px;
     left: 0;
     height: 1px;
     width: 100%;
@@ -780,7 +780,7 @@ img {
 .blog_section .cline {
     border-left: 1px solid #dce0e5;
     border-right: 1px solid #dce0e5;
-    padding: 100px 70px;
+    padding: 100px 70px 150px 70px;
 }
 .blog_content h4 {
     color: var(--text_dark);
