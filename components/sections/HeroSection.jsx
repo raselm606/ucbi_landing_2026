@@ -6,7 +6,7 @@ import ucbi_coin from '../../public/images/ucbi_coin.svg';
 const HeroSection = () => {
   return (
     <>
-    <div className="hero_section ">
+    <div className="hero_section mt-4">
       <div className="container cline section_padding_180">
         <div className="row align-items-center">
           <div className="col-lg-5 mb-3">

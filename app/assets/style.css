@@ -15,6 +15,7 @@ body {
   font-family: var(--paragraph_font);
   color: var(--paragraph_color);
   background: var(--text_white);
+  font-size: 14px;
 }
 
 * {
@@ -182,6 +183,10 @@ img {
     padding-left: 70px !important;
     padding-right: 70px !important;
 }
+.cline_white {
+    border-left: 1px solid #dce0e5;
+    border-right: 1px solid #dce0e5; 
+}
 .btn-primary {
   background: var(--primary_color);
   color: var(--text_white);
@@ -298,6 +303,7 @@ img {
     margin-top: 10px;
     margin-bottom: 15px;
 }
+
 /*partners section*/
 .partner_section .cline {
     border-right: 1px solid rgb(17 46 80 / 15%) !important;
@@ -305,19 +311,27 @@ img {
     padding:60px 0 !important;
 }
 .partner_img img {
-    width: 80px;
+    width: auto;
     height: auto;
     margin-right: 40px;
     margin-left: 40px;
 }
 
 /*driving section*/
+.driving_section {
+    background: #f0f1f5;
+}
 .driving_section .cline {
     background: #F0F1F5;
     padding: 100px 70px !important;
     border-right: 1px solid rgb(17 46 80 / 15%) !important;
     border-left: 1px solid rgb(17 46 80 / 15%) !important;
 }
+.counter_area_setion {
+    background: #f0f1f5;
+    border-top: 1px solid #cfd4dc;
+}
+
 .driving_img img {
     height: auto;
     width: 550px;
@@ -331,8 +345,7 @@ img {
     font-weight: 500;
     letter-spacing: -1px;
 }
-.section_paragraph_dark {
-    font-size: 13px;
+.section_paragraph_dark { 
     color: var(--paragraph_color);
     line-height: 24px;
     margin-bottom: 30px;
@@ -341,29 +354,35 @@ img {
 }
 .big_text_number span {
     text-align: center;
-    color: #0cc0df;
+    color: #112E50;
     letter-spacing: -1px;
-    font-family: tasaOrbiter;
-    font-size: 100px;
-    line-height: 110px;
-    display: block;
     word-break: break-all;
+    font-family: tasaOrbiter;
+    font-size: 40px;
+    line-height: 40px;
+    display: block;
+    font-weight: 600; 
 }
-
+.big_text_number {
+    /* background: red; */
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+.line_right{ 
+    border-right: 1px solid #ddd;
+}
+.big_text_number p {
+    color: #112E50; 
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+}
 /** PapersToken Section Styles */
 .papers_token_section {
     border-bottom: 1px solid rgb(17 46 80 / 15%);
     position: relative;
 }
- .papers_token_section:after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 101px;
-    height: 1px;
-    width: 100%;
-    background: #112e5026;
-}
+ 
 .papers_token_section .cline {
     position: relative;
     border-left: 1px solid #112e5026 !important;
@@ -371,24 +390,8 @@ img {
     padding: 0 !important;
     padding-bottom: 100px !important;
 }
-.papers_token_section .cline:before {
-    content: "";
-    position: absolute;
-    height: 1px;
-    width: 100%;
-    left: 0;
-    top: 93px;
-    background: rgb(17 46 80 / 15%);
-}
-.papers_token_section .cline:after {
-    content: "";
-    position: absolute;
-    height: 1px;
-    width: 100%;
-    left: 0;
-    bottom: 208px;
-    background: rgb(17 46 80 / 15%);
-}
+ 
+ 
 .white_paper_area {
     background: url("../../public/images/whitepare_bg.jpg");
     padding: 70px 112px  70px 70px;
@@ -400,24 +403,8 @@ img {
     background-repeat: no-repeat;
     background-position: center center;
 }
-.white_paper_area:before {
-    content: "";
-    position: absolute;
-    right: -13px;
-    top: -16px;
-    height: 108%;
-    width: 1px;
-    background: #dce0e5;
-}
-.white_paper_area:after {
-    content: "";
-    position: absolute;
-    right: -50px;
-    top: -16px;
-    height: 108%;
-    width: 1px;
-    background: #dce0e5;
-}
+ 
+ 
 .tokenomics_area {
     background: url("../../public/images/teokenomics.jpg");
     padding: 70px 112px 70px 70px;
@@ -429,25 +416,8 @@ img {
     background-repeat: no-repeat;
     background-position: center center;
 }
-.tokenomics_area:before {
-    content: "";
-    background: #dce0e5;
-    width: 1px;
-    height: 108%;
-    position: absolute;
-    top: -16px;
-    left: -13px;
-
-}
-.tokenomics_area:after {
-    content: "";
-    background: #dce0e5;
-    width: 1px;
-    height: 108%;
-    position: absolute;
-    top: -16px;
-    left: -50px;
-}
+ 
+ 
 .section_title_white {
     color: var(--text_white);
     font-size: 30px;
