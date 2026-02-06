@@ -243,27 +243,60 @@ img {
 
 /*hero section*/
 .hero_section {
-  background: linear-gradient(336deg, #0C294B 44%, #0cc0df 100%);
+  /* background: linear-gradient(336deg, #0C294B 44%, #0cc0df 100%);
   background: -webkit-linear-gradient(336deg, #0C294B 44%, #0cc0df 100%);
   background: -moz-linear-gradient(336deg, #0C294B 44%, #0cc0df 100%);
-  background: -o-linear-gradient(336deg, #0C294B 44%, #0cc0df 100%);
+  background: -o-linear-gradient(336deg, #0C294B 44%, #0cc0df 100%); */
+  
+  position: relative; 
+  background: url("../../public/images/hero_bg.jpg");
+    background-size: cover;
+
+  
 }
-.hero_image img {
+.hero_section .cline{
+    height: 750px;
+}
+.hero_image .ucbi_coin {
     mix-blend-mode: luminosity;
-    -webkit-animation: top_bottom_bounce 4s infinite linear;
-    animation: top_bottom_bounce 4s infinite linear;
+    width: 500px;
+    height: 500px;
+    animation: 4s linear infinite top_bottom_bounce;
+    position: absolute;
+    bottom: 8%;
+    right: 10%;
+}
+.hero_image .eth_coin {
+    mix-blend-mode: luminosity;
+    width: 260px;
+    height: 260px;
+    animation: 6s linear infinite top_bottom_bounce;
+    position: absolute;
+    bottom: 15%;
+    right: 30%;
+}
+.hero_image .btc_coin {
+    width: 240px;
+    height: 240px;
+    animation: 8s linear infinite top_bottom_bounce;
+    position: absolute;
+    top: 20%;
+}
+.hero_content {
+    margin-top: 115px;
 }
 .hero_title {
-    font-size: 50px;
-    line-height: 60px;
-    margin-bottom: 40px;
-    font-family: var(--title_font);
+    font-size: 45px;
+    line-height: 55px;
+    font-family: var(--title_font); 
+    font-weight: 500;
 }
 .hero_paragraph {
-    font-size: 16px;
-    margin-bottom: 40px;
+    font-size: 15px;
     font-family: var(--paragraph_font);
-    color: rgb(255 255 255 / 76%);
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
 /*partners section*/
 .partner_section .cline {

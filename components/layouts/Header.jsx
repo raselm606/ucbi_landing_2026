@@ -20,13 +20,13 @@ const Header = () => {
                     <Link className="nav-link active" aria-current="page" href="#about">About</Link>
                     </li>
                     <li className="nav-item">
-                    <Link className="nav-link" href="#">Platform</Link>
-                    </li>
-                    <li className="nav-item">
                     <Link className="nav-link" href="#">Blockchain</Link>
                     </li>
                     <li className="nav-item">
                     <Link className="nav-link" href="#">Treasury</Link>
+                    </li>
+                    <li className="nav-item">
+                    <Link className="nav-link" href="#">Submit Request</Link>
                     </li>
                     <li className="nav-item">
                     <Link className="nav-link" href="#">Contact</Link>
@@ -35,7 +35,7 @@ const Header = () => {
                      
                 </ul>
                 <div className="top_button">
-                    <Button variant="top_nav_button" href="#"> Trading</Button>
+                    <Button variant="top_nav_button" href="#"> Dashboard</Button>
                 </div>
                 </div>
             </div>

@@ -1,4 +1,6 @@
 import BootstrapProvider from '@/components/layouts/BootstrapProvider';
+ 
+
 
 import tasaOrbiter from '@/lib/fonts/tasaOrbiter';
 import { Inter } from "next/font/google";
@@ -27,12 +29,12 @@ export const metadata = {
   description: "UCBI Banking Landing Page",
 };
 
-export default function RootLayout({ children }) {
+export default async function RootLayout({ children } ) {
   return (
     <html lang="en">
       <body className={`${InterSans.variable} ${tasaOrbiter.variable}`}>
-        <BootstrapProvider>
-          {children}
+        <BootstrapProvider> 
+          {children} 
         </BootstrapProvider>
 
       
