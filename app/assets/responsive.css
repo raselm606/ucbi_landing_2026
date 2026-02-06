@@ -103,6 +103,67 @@
         padding: 100px 8px !important;
     }
 
+    .hero_section { 
+        background-position: center center;
+    }
+    .hero_section .cline {
+        height: 800px;
+    }
+    .hero_content {
+        margin-top: 0;
+    }
+    .hero_image .btc_coin {
+        width: 130px;
+        height: 130px; 
+        top: 60%;
+    }
+    .hero_image .eth_coin { 
+        width: 150px;
+        height: 150px; 
+        bottom: 4%;
+        left: 4%;
+        mix-blend-mode: normal;
+    }
+    .hero_image .ucbi_coin {
+        mix-blend-mode: normal;
+        width: 300px;
+        height: 300px;  
+        bottom: 2%;
+        right: 0;
+    }
+
+    .big_text_number {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .line_right {
+        border-right: 1px solid transparent !important;
+    }
+    .extra_line_whtiepaper_left:before {
+        background: none;
+    }
+    .extra_line_whtiepaper_right:before {
+        background: none;
+    }
+    .cline_white {
+        border-right: 1px solid transparent !important;
+    }
+
+    .papers_token_section .clinee { 
+        height: auto;  
+        background-position: right center;
+        padding-top: 20px;
+    }
+    .tokenomics_area:before { 
+        background: none; 
+    }
+    .tokenomics_area:after { 
+        background: none; 
+    }
+    .cont_bg:before { 
+        opacity: 0.2;
+    }
+    
 
 
 }
@@ -173,14 +234,12 @@
     }
     .line_img {
         display: none;
-    }
-    .ourjourney_section { 
-        background-size: cover;
-    }.line_img {
+    }  .line_img {
         display: none;
     }
     .ourjourney_section { 
         background-size: cover;
+        background-position: bottom center;
     }
     .timeline_item:before {
         display: none ;

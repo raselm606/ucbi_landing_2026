@@ -47,7 +47,7 @@ const Header = () => {
     <div className="modal-dialog modal-dialog-centered">
         <div className="modal-content">
         <div className="modal-header">
-            <h1 className="modal-title fs-5" id="exampleModalLabel" style={{color:'#112e50'}}>Do you want to invest in UCBI Company? </h1>
+            <h4 className="modal-title fs-5" id="exampleModalLabel" style={{color:'#112e50'}}>Want to invest in <strong>UCBI</strong> Ltd? </h4>
             <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div className="modal-body" style={{color:'#112e50'}}>
