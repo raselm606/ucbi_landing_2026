@@ -24,7 +24,7 @@ const PapersToken = () => {
                         <p className="section_paragraph_dark" >
                             The UCBI tokenomics framework is presented for informational purposes only and describes the structural principles governing the issuance allocation and lifecycle of digital units within the UCBI ecosystem It outlines governance mechanisms technical constraints and alignment considerations without constituting
                         </p>
-                        <Button variant="primary" href="#" > Download</Button> 
+                        <Button style={{background:'#112E50 !important'}} variant="primary" href="#" > Download</Button> 
                     </div>
                 </div>
             </div>

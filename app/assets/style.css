@@ -190,8 +190,8 @@ img {
 .btn-primary {
   background: var(--primary_color);
   color: var(--text_white);
-  height: 52px;
-  width: 140px;
+  /* height: 52px;
+  width: 140px; */
   border: none !important;
   border-radius: 0 !important;
   cursor: pointer;
@@ -201,6 +201,7 @@ img {
   font-weight: 600;
   display: inline-block;
   transition: var(--transition);
+  padding: 1px 35px;
 }
 .btn-primary:hover {
   background: #129fb8;
@@ -830,11 +831,12 @@ img {
 }
 /*scaleable section*/
 .scaleable_section{
-    background: url("../../public/images/scaleable_bg.jpg");
+    background: url("../../public/images/scaleable_bg1.jpg");
     background-size: cover;
+    background-position: top center;
 }
 .scaleable_section .cline {  
-    padding: 150px 70px;
+    padding: 145px 70px;
 }
 /*footer section*/
 .footer_info img {

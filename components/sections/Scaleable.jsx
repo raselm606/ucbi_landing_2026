@@ -7,10 +7,10 @@ const Scaleable = () => {
             <div className="row">
                 <div className="col-lg-12">
                     <div className="scaleable_content">
-                        <h2 className="section_title_white" data-aos="fade-up" data-aos-delay="700">
-                            Secure. Scalable. Future-Ready Banking <br /> Experience UCBI's Solutions Now.
+                        <h2 className="section_title_white" >
+                            Secure and scalable digital infrastructure <br /> Built for long-term institutional use
                         </h2>
-                        <Button data-aos="fade-up" data-aos-delay="700" variant="primary" href=""> Contact us</Button>
+                         <Button href="#" variant="primary">Submit Request</Button>
                     </div>
                 </div>
             </div>
