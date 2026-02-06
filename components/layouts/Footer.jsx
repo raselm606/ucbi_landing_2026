@@ -5,11 +5,7 @@ import send from '../../public/images/arrow.svg'
 import cc from '../../public/images/cc.png'
 import FooterLogo from '../../public/images/logo.svg'
 import sms from '../../public/images/sms.svg'
-import facebook from '../../public/images/social/facebook.svg'
 import linkedin from '../../public/images/social/linkedin.svg'
-import mail from '../../public/images/social/mail.svg'
-import medium from '../../public/images/social/medium.svg'
-import twitter from '../../public/images/social/s.svg'
 const Footer = () => {
   return (
     <>
@@ -19,7 +15,7 @@ const Footer = () => {
           <div className="col-lg-3 mb-3">
             <div className="footer_info">
               <Image  src={FooterLogo} width={120} height={52} alt="Footer Logo"/>
-              <p>Receive exclusive UCBI updates <br />straight to your inbox.</p>
+              <p>Receive exclusive UCBI updates <br /> straight to your inbox</p>
               <form action="#" className="footer_subscriber">
                 <div className="input-group from_area">
                   <span className="input-group-text"><Image src={sms} alt="Mail Icon" /></span>
@@ -37,43 +33,40 @@ const Footer = () => {
           </div>
           <div className=" offset-lg-2 col-lg-2 mb-3">
             <div className="footer_nav_menus">
-              <h6>Services</h6>
+              <h6>Company</h6>
               <div className="footer_navs">
                 <ul>
                   <li><Link href="#">Blockchain</Link></li>
-                  <li><Link href="#">WEB3 Advisory</Link></li>
-                  <li><Link href="#">Treasury Fundraiser</Link></li>
-                  <li><Link href="#">Secure Data Vaults</Link></li>
-                  <li><Link href="#">On-Chain Analytics</Link></li>
+                  <li><Link href="#">Submit a Request</Link></li>
+                  <li><Link href="#">Strategy Advisory</Link></li>
                   <li><Link href="#">Token Launch Support</Link></li>
-                  <li><Link href="#">AML & KYC Verification</Link></li>
                 </ul>
               </div>
             </div>
           </div>
           <div className="  col-lg-2 mb-3">
             <div className="footer_nav_menus">
-              <h6>Follow Us</h6>
+              <h6>Resources</h6>
               <div className="footer_navs">
                 <ul>
-                  <li><Link href="#">Medium</Link></li>
+                  <li><Link href="#">Arkham Intel</Link></li>
+                  <li><Link href="#">Yahoo Finance</Link></li>
                   <li><Link href="#">Coinmarketcap</Link></li>
-                  <li><Link href="#">Blockchain Explorer</Link></li>
-                  <li><Link href="#">CoinGecko</Link></li>
-                  <li><Link href="#">Twitter</Link></li>
-                  <li><Link href="#">Telegram</Link></li> 
+                  <li><Link href="#">Blockchain Explorer</Link></li> 
                 </ul>
               </div>
             </div>
           </div>
 
-          <div className="  col-lg-1 mb-3">
+          <div className="  col-lg-2 mb-3">
             <div className="footer_nav_menus">
               <h6>Contact</h6>
               <div className="footer_navs">
                 <ul>
-                  <li><Link href="#" mailto="contact@ucbibanking.io">Contact@ucbibanking.io</Link></li> 
-                  <li><Link href="#" mailto="support@ucbibanking.io">Support@ucbibanking.io</Link></li> 
+                  <li><Link   href="mailto:contact@ucbibanking.io">Contact@ucbibanking.io</Link></li> 
+                  <li><Link href="+33376876876"  >+33 376 876 876 ( FR )</Link></li> 
+                  <li><Link href="+441632960123"  >+44 1632 960 123 ( UK )</Link></li> 
+                  <li>Monday to Friday at 9am to 6pm</li> 
                   
                 </ul>
               </div>
@@ -97,21 +90,17 @@ const Footer = () => {
           <div className="col-lg-12">
             <div className="footer_elements">
               <div className="social">
-                <ul>
-                  <li><Link href="#"><Image   src={mail} alt="mail"/> </Link></li>
-                  <li><Link href="#"><Image   src={twitter} alt="twitter"/></Link></li>
-                  <li><Link href="#"><Image   src={linkedin} alt="linkedin"/></Link></li>
-                  <li><Link href="#"><Image   src={facebook} alt="facebook"/></Link></li>
-                  <li><Link href="#"><Image   src={medium} alt="medium"/></Link></li>
+                <ul> 
+                  <li><Link href="#"><Image   src={linkedin} alt="linkedin"/></Link></li> 
                 </ul>
               </div>
               <div className="copyright">
-                <p>UCBI Group Technologies Copyright © 2026 All rights reserved</p>
+                <p>UCBI Group Technologies LTD Copyright © 2026 All rights reserved</p>
               </div>
               <div className="cc_terms">
                 <ul>
-                  <li><Link href="#">Privacy Policy</Link></li>
                   <li><Link href="#">Terms & Conditions</Link></li>
+                  <li><Link href="#">Privacy Policy</Link></li>
                 </ul>
               </div>
             </div>
